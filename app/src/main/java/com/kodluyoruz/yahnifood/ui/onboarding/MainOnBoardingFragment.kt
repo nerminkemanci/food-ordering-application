@@ -20,7 +20,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainOnBoardingFragment : BaseFragment() {
 
     private lateinit var binding: FragmentMainOnBoardingBinding
-    private lateinit var fragmentList: ArrayList<Fragment>
+    private lateinit var fragmentList: ArrayList<Fragment> // onboarding sayfalarınn listesi
     private val layoutParamsActive = LinearLayout.LayoutParams(80, 15)
     private val layoutParamsInactive = LinearLayout.LayoutParams(55, 15)
 
